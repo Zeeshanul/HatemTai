@@ -121,7 +121,7 @@ class Logout(View):
         # <view logic>
         try:
             auth.logout(request)
-            return render(request, 'index.html', {})
+            return redirect('/')
         except Exception as e:
             return redirect('/')
 
