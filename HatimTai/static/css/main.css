@@ -23555,6 +23555,7 @@ body {
 
 .news-box {
     height: 300px;
+    overflow:auto;
 }
 
 .loader {
