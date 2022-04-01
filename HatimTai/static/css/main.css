@@ -23555,6 +23555,12 @@ body {
 
 .news-box {
     height: 300px;
+    overflow:auto;
+}
+
+.news-box .row {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
 }
 
 .loader {
