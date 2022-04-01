@@ -129,7 +129,7 @@
                                     <span>{{nw.news_title}}</span>
                                     <br />
                                     <bold>Link:</bold>
-                                    <a href="{{nw.news_link}}">{{nw.news_link}}</a>
+                                    <a href="{{nw.news_link}}" target="_blank">{{nw.news_link}}</a>
                                 </div>
                                 {% if request.user.role == 'Admin' %}
                                 <div class="col-md-4 col-sm-4 col-4">
@@ -305,7 +305,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="news_link">News Link:</label>
-                                <input type="text" class="form-control" id="news_link" name="news_link" placeholder="Link of the news" required>
+                                <input type="url" class="form-control" id="news_link" name="news_link" placeholder="https://www.example.com" required>
                             </div>
                         </div>
                         <!--                        <div class="col-md-6">-->
